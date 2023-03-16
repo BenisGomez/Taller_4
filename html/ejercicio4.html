@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo formulario #4</title>
+</head>
+<body>
+
+    
+<table style="border-collapse: collapse; min-width: 40%; min-height: 380px;">
+    <caption>
+        <h1 style="vertical-align: middle; font-family: sans-serif; color: sienna;">Basketball Regisration Form</h1>
+    </caption>
+            <form action="">
+                <tr>
+                    <td>
+                        <div style="color: sienna;">Player Name</div>
+                        <div style="margin-bottom: 15px;">
+                            <input type="text" placeholder="First" style="border-color: darkgoldenrod; width: 97%;">
+                        </div> 
+                    </td>
+                    <td>
+                        <div style="margin-top: 5px;"><input type="text" placeholder="Last" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border: 3px solid #000;">
+                        <div>
+                            <div style="color: sienna;">Age</div>
+                            <div>
+                                <input type="number" min="30" style="border-color:darkgoldenrod; width: 97%;">
+                            </div>
+                        </div>
+                    </td>
+                    <td style="border: 3px solid #000;">
+                        <div style="color: sienna;">Email</div>
+                        <div>
+                            <input type="email" pattern="[a-zA-Z0-9._%+-]+@([a-zA-Z0-9-]+.)+com" style="border-color: darkgoldenrod; width: 97%;">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <div style="color: sienna; margin-top: 10px;">Address</div>
+                        <div style="margin-bottom: 10px;">
+                            <input type="text" placeholder="Street Address" style="border-color: darkgoldenrod;width: 525px;">
+                        </div>
+                        <div style="margin-bottom: 10px;">
+                            <input type="text" placeholder="Street Address Line 2" style="border-color: darkgoldenrod; width: 525px;">
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div style="margin-bottom: 10px;"><input type="text" placeholder="City" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                    <td>
+                        <div style="margin-bottom: 10px;"><input type="text" placeholder="Region" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div style="margin-bottom: 10px;"><input type="number" placeholder="Postal/Zip code" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                    <td>
+                        <div style="margin-bottom: 10px;"><input type="text" placeholder="Country" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td style="border: 3px solid #000;" >
+                        <div style="color: sienna;">Home Phone</div>
+                        <div style="margin-bottom: 10px;"><input type="number" placeholder="### ### ####"  pattern="\d{3}\s\d{3}\s\d{4}" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                    <td style="border: 3px solid #000;">
+                        <div style="color: sienna;">Cell Phone</div>
+                        <div style="margin-bottom: 10px;"><input type="number" placeholder="### ### ####" pattern="\d{3}\s\d{3}\s\d{4}" style="border-color: darkgoldenrod; width: 97%;"></div>
+                    </td>
+                </tr>
+            </form>
+</table>
+    
+</body>
+</html>
